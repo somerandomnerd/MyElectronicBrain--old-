@@ -1,0 +1,63 @@
+
+#topbittest a{
+color: #ddd;
+text-decoration: none;
+-webkit-transition: color .25s linear .1s;
+transition: color .25s linear .1s;
+}
+#topbittest:hover a{
+color: #248513;
+text-decoration: underline;
+}
+
+#topbittest:hover a:hover{
+color: #fff;
+text-decoration: underline;
+}
+
+
+
+html{color:#ddd;background:#380028;}
+#page {
+margin: 5em;
+background-color: #000000;
+background-image: -moz-linear-gradient(top, #000000, #222222); /* FF3.6 */
+background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #000000),color-stop(1, #222222)); /* Saf4+, Chrome */
+background-image: -webkit-linear-gradient(#000000, #222222); /* Chrome 10+, Saf6 */
+background-image: linear-gradient(top, #000000, #222222);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#000000', EndColorStr='#222222'); /* IE6–IE9 */
+}
+
+legend{color:#ddd;}
+
+a:link{color: #248513;
+   -webkit-transition: color .25s linear .1s;
+   transition: color .25s linear .1s;
+}
+a:visited{color: #248513;}
+a:hover {color: #4BC956;
+   -webkit-transition: color .25s linear .1s;
+   transition: color .25s linear .1s;
+}
+a:active {color: #4bc956;
+   -webkit-transition: color .25s linear .1s;
+   transition: color .25s linear .1s;
+}
+
+
+
+
+h1,h2 {background-color: #fff; color: #000;}
+
+h2 {
+-moz-border-radius: 0.2em;
+-webkit-border-radius: 0.2em;
+border-radius: 0.2em;
+}
+h2 {
+}
+
+h3,h4 {color: #fff;}
+h5,h6 {color: #ddd;}
+
+strong {color: #e8e8e8;}
