@@ -1,6 +1,7 @@
 require 'spec_helper'
 
 describe PagesController do
+  render_views 
 
   describe "GET 'home'" do
     it "should be successful" do
@@ -16,4 +17,9 @@ describe PagesController do
     end
   end
 
+  it "should have the right title" do
+    get 'home'
+    response.should have_selector("title",
+                       :content => "Home | My Electronic Brain")
+  end
 end
