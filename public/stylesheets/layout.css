@@ -1,3 +1,44 @@
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
 table{border-collapse:collapse;border-spacing:0;}
 fieldset,img{border:0;}
+
+#page {}
+
+p {
+padding: 0;
+margin: 1em 4em;
+}
+
+h1,h2,h3,h4,h5,h6{
+margin: 0 0 0.25em 0;
+display: block;
+}
+
+h1 {padding-top: 0.1em; padding-right: 0.36em; padding-bottom: 0.1em; padding-left: 0.76em; }
+h2 {
+padding-left: 0.64em; padding-right: 0.32em;
+margin-left: 0.64em; margin-right: 0.32em;
+}
+h3 {padding-left: 1.72em; padding-right: 0.62em;}
+h4 {padding-left: 2.12em; padding-right: 0.62em;}
+h5 {padding-left: 2.6em; padding-right: 0.62em;}
+h6 {padding-left: 3.2em; padding-right: 0.62em;}
+
+blockquote {
+padding: 0 0 0 2em;
+margin: 0 0 0 2em;
+border-left: solid 4px;
+}
+
+blockquote cite {
+margin: 0 0 0 2em;}
+
+ul{margin: 0 4em 0 4em;}
+ol{margin: 0 4em 0 4em;}
+dl{margin: 0 4em 0 4em;}
+dt {}
+dd {margin: 0 0 0.5em 1em;}
+li {padding: 0 0 1em 0em;}
+li li {padding: 0 0 0 2em;}
+ul li{}
+ol li{}
