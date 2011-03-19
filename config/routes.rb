@@ -1,7 +1,13 @@
 Myelectronicbrain::Application.routes.draw do
-  get "pages/home"
 
-  get "pages/about"
+  root :to => "pages#home"
+  
+  match '/contact', :to => 'pages#contact'
+  match '/about', :to => 'pages#about'
+  match '/policies', :to => 'pages#policies'
+  match '/history', :to => 'pages#history' 
+  
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -52,7 +58,6 @@ Myelectronicbrain::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => "welcome#index"
 
   # See how all your routes lay out with "rake routes"
 
